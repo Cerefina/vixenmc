@@ -77,7 +77,7 @@ async fn main() {
         "{}",
         TextComponent::text(format!(
             "Starting {} {} Java Minecraft (Protocol {}) | {} Bedrock (Protocol {})",
-            TextComponent::text("Pumpkin")
+            TextComponent::text("VixenMC")
                 .color_named(NamedColor::Gold)
                 .to_pretty_console(),
             TextComponent::text(CARGO_PKG_VERSION.to_string())

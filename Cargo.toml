@@ -21,7 +21,7 @@ members = [
     "crates/pumpkin-host-bindings",
     "crates/pumpkin-world",
     "tools/pumpkin-codegen",
-    "tools/pumpkin-fuzzer",
+    "tools/pumpkin-fuzzer", "extras/vixen-mob-ai",
 ]
 
 # [workspace.lints.rust]

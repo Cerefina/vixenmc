@@ -1,0 +1,13 @@
+[package]
+name = "vixen-mob-ai"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+
+[dependencies]
+pumpkin = { path = "../../crates/pumpkin" }
+pumpkin-util = { workspace = true }
+
+[lints]
+workspace = true
