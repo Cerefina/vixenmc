@@ -124,6 +124,10 @@ lto = true
 strip = "debuginfo"
 codegen-units = 1
 
+
+[profile.dev.package."*"]
+opt-level = 3
+
 # The big library crates are mostly LLVM work before LTO. Fat LTO re-optimizes everything at the
 # final link, so splitting their own codegen here only speeds up the build.
 [profile.release.package.pumpkin-data]
@@ -159,6 +163,7 @@ debug = true
 strip = false
 
 [profile.dev]
+opt-level = 1
 debug = false
 
 [workspace.dependencies]
